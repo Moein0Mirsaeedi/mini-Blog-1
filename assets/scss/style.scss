@@ -1,0 +1,12 @@
+.bg-shadow-custom {
+  background: linear-gradient(
+    to bottom,
+    transparent 0%,
+    transparent 18%,
+    rgba(0, 0, 0, 0.8) 99%,
+    rgba(0, 0, 0, 0.8) 100%
+  );
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
