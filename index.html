@@ -11,14 +11,13 @@
   </head>
   <body class="bg-gray-100">
     <!-- menu -->
-    
     <nav
       class="bg-white shadow-md w-full fixed flex justify-between items-center px-4 py-1.5 lg:py-3 z-10"
     >
       <h2 class="text-2xl">Mini Blog</h2>
       <div
         id="toggleOpen"
-        class="flex flex-col w-6 h-3.5 justify-between box-content border-2 border-transparent hover:border-sky-400 transition p-1 rounded lg:hidden"
+        class="cursor-pointer flex flex-col w-6 h-3.5 justify-between box-content border-2 border-transparent hover:border-sky-400 transition p-1 rounded lg:hidden"
       >
         <span class="w-full h-0.5 bg-gray-800 rounded"></span>
         <span class="w-full h-0.5 bg-gray-800 rounded"></span>
@@ -56,7 +55,7 @@
         <h2 class="text-2xl">Mini Blog</h2>
         <div
           id="toggleClose"
-          class="flex flex-col w-3.5 h-3.5 justify-center items-center relative box-content border-2 border-transparent hover:border-sky-400 transition p-1 rounded"
+          class="cursor-pointer flex flex-col w-3.5 h-3.5 justify-center items-center relative box-content border-2 border-transparent hover:border-sky-400 transition p-1 rounded"
         >
           <span
             class="w-full h-0.5 bg-gray-800 rounded rotate-45 absolute"
@@ -110,7 +109,7 @@
         class="md:grid md:grid-cols-2 md:grid-rows-2 md:gap-5 lg:grid-cols-3"
       >
         <div
-          class="w-full h-36 overflow-hidden flex items-center mt-8 relative rounded sm:h-44 sm:mt-12 md:mt-0 md:h-52 bg-[url('assets/images/1.webp')] bg-cover	bg-center	"
+          class="w-full h-36 overflow-hidden flex items-center mt-8 relative rounded sm:h-44 sm:mt-12 md:mt-0 md:h-52 bg-[url('assets/images/1.webp')] bg-cover bg-center"
         >
           <div
             class="absolute text-white bottom-0 w-full bg-gray-900 opacity-75 p-2"
@@ -120,7 +119,7 @@
           </div>
         </div>
         <div
-          class="w-full h-36 overflow-hidden items-center mt-8 relative rounded sm:h-44 sm:mt-12 md:mt-0 md:h-52 lg:h-full lg:row-span-2 lg:justify-center hidden lg:flex bg-[url('assets/images/5.jpg')] bg-cover	bg-center	"
+          class="w-full h-36 overflow-hidden items-center mt-8 relative rounded sm:h-44 sm:mt-12 md:mt-0 md:h-52 lg:h-full lg:row-span-2 lg:justify-center hidden lg:flex bg-[url('assets/images/5.jpg')] bg-cover bg-center"
         >
           <div
             class="absolute text-white bottom-0 w-full bg-gray-900 opacity-75 p-2"
@@ -130,7 +129,7 @@
           </div>
         </div>
         <div
-          class="w-full h-36 overflow-hidden flex items-center mt-8 relative rounded sm:h-44 sm:mt-12 md:mt-0 md:h-52 bg-[url('assets/images/2.webp')] bg-cover	bg-center	"
+          class="w-full h-36 overflow-hidden flex items-center mt-8 relative rounded sm:h-44 sm:mt-12 md:mt-0 md:h-52 bg-[url('assets/images/2.webp')] bg-cover bg-center"
         >
           <div
             class="absolute text-white bottom-0 w-full bg-gray-900 opacity-75 p-2"
@@ -140,7 +139,7 @@
           </div>
         </div>
         <div
-          class="w-full h-36 overflow-hidden flex items-center mt-8 relative rounded sm:h-44 sm:mt-12 md:mt-0 md:h-52 bg-[url('assets/images/3.webp')] bg-cover	bg-center	"
+          class="w-full h-36 overflow-hidden flex items-center mt-8 relative rounded sm:h-44 sm:mt-12 md:mt-0 md:h-52 bg-[url('assets/images/3.webp')] bg-cover bg-center"
         >
           <div
             class="absolute text-white bottom-0 w-full bg-gray-900 opacity-75 p-2"
@@ -151,7 +150,7 @@
         </div>
 
         <div
-          class="w-full h-36 overflow-hidden items-center mt-8 relative rounded sm:h-44 sm:mt-12 md:mt-0 md:h-52 flex bg-[url('assets/images/4.webp')] bg-cover	bg-center	"
+          class="w-full h-36 overflow-hidden items-center mt-8 relative rounded sm:h-44 sm:mt-12 md:mt-0 md:h-52 flex bg-[url('assets/images/4.webp')] bg-cover bg-center"
         >
           <div
             class="absolute text-white bottom-0 w-full bg-gray-900 opacity-75 p-2"
@@ -163,6 +162,74 @@
       </div>
     </div>
 
+    <!-- main -->
+    <div class="container mt-24">
+      <h2 class="text-4xl ml-3">Recent</h2>
+      <div class="w-100">
+        <div class="w-100 mt-12">
+          <div class="w-100 h-60 flex items-center overflow-hidden">
+            <img class="w-100" src="assets/images/1.webp" alt="1" />
+          </div>
+          <div class="w-100 px-8 mt-8">
+            <h3 class="text-xl font-medium">
+              The AI magically removes moving objects from videos.
+            </h3>
+            <div class="flex mt-6 items-center">
+              <img
+                class="w-8 h-8 rounded-full"
+                src="assets/images/5.jpg"
+                alt=""
+              />
+              <span class="ml-4 font-light text-sm"
+                >By <span class="font-normal text-md">Carrol Atkinson</span> -
+                July 19, 2019</span
+              >
+            </div>
+            <p class="mt-6">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo sunt
+              tempora dolor laudantium sed optio, explicabo ad deleniti impedit
+              facilis fugit recusandae! Illo, aliquid, dicta beatae quia porro
+              id est.
+
+              <a class="block mt-6 font-light text-xl text-blue-500" href="#"
+                >Read More</a
+              >
+            </p>
+          </div>
+        </div>
+        <div class="w-100 mt-12">
+          <div class="w-100 h-60 flex items-center overflow-hidden">
+            <img class="w-100" src="assets/images/1.webp" alt="1" />
+          </div>
+          <div class="w-100 px-8 mt-8">
+            <h3 class="text-xl font-medium">
+              The AI magically removes moving objects from videos.
+            </h3>
+            <div class="flex mt-6 items-center">
+              <img
+                class="w-8 h-8 rounded-full"
+                src="assets/images/5.jpg"
+                alt=""
+              />
+              <span class="ml-4 font-light text-sm"
+                >By <span class="font-normal text-md">Carrol Atkinson</span> -
+                July 19, 2019</span
+              >
+            </div>
+            <p class="mt-6">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo sunt
+              tempora dolor laudantium sed optio, explicabo ad deleniti impedit
+              facilis fugit recusandae! Illo, aliquid, dicta beatae quia porro
+              id est.
+
+              <a class="block mt-6 font-light text-xl text-blue-500" href="#"
+                >Read More</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
     <script src="assets/js/scripts.js"></script>
   </body>
 </html>
