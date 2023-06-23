@@ -10,43 +10,43 @@
     <link rel="stylesheet" href="assets/css/home.css" />
   </head>
   <body class="">
-    <!-- menu -->
-    <div class="w-full fixed z-10">
-      <nav
-        class="2xl:container bg-white mx-auto shadow-md w-full flex justify-between items-center px-4 py-1.5 lg:py-3 z-10"
+    <!-- Menu -->
+    <nav
+      class="w-full fixed z-10 bg-white mx-auto shadow-md w-full flex justify-between items-center px-4 py-1.5 lg:py-3 z-10"
+    >
+      <h2 class="text-2xl">Mini Blog</h2>
+      <div
+        id="toggleOpen"
+        class="cursor-pointer flex flex-col w-6 h-3.5 justify-between box-content border-2 border-transparent hover:border-sky-400 transition p-1 rounded lg:hidden"
       >
-        <h2 class="text-2xl">Mini Blog</h2>
-        <div
-          id="toggleOpen"
-          class="cursor-pointer flex flex-col w-6 h-3.5 justify-between box-content border-2 border-transparent hover:border-sky-400 transition p-1 rounded lg:hidden"
-        >
-          <span class="w-full h-0.5 bg-gray-800 rounded"></span>
-          <span class="w-full h-0.5 bg-gray-800 rounded"></span>
-          <span class="w-full h-0.5 bg-gray-800 rounded"></span>
-        </div>
+        <span class="w-full h-0.5 bg-gray-800 rounded"></span>
+        <span class="w-full h-0.5 bg-gray-800 rounded"></span>
+        <span class="w-full h-0.5 bg-gray-800 rounded"></span>
+      </div>
 
-        <ul class="hidden lg:inline-flex">
-          <li class="text-lg mr-6">
-            <a class="hover:text-sky-400 transition" href="#">Home</a>
-          </li>
-          <li class="text-lg mr-6">
-            <a class="hover:text-sky-400 transition" href="#">Politics</a>
-          </li>
-          <li class="text-lg mr-6">
-            <a class="hover:text-sky-400 transition" href="#">Tech</a>
-          </li>
-          <li class="text-lg mr-6">
-            <a class="hover:text-sky-400 transition" href="#">Entertainment</a>
-          </li>
-          <li class="text-lg mr-6">
-            <a class="hover:text-sky-400 transition" href="#">Travel</a>
-          </li>
-          <li class="text-lg mr-6">
-            <a class="hover:text-sky-400 transition" href="#">Sports</a>
-          </li>
-        </ul>
-      </nav>
-    </div>
+      <ul class="hidden lg:inline-flex">
+        <li class="text-lg mr-6">
+          <a class="hover:text-sky-400 transition" href="#">Home</a>
+        </li>
+        <li class="text-lg mr-6">
+          <a class="hover:text-sky-400 transition" href="#">Politics</a>
+        </li>
+        <li class="text-lg mr-6">
+          <a class="hover:text-sky-400 transition" href="#">Tech</a>
+        </li>
+        <li class="text-lg mr-6">
+          <a class="hover:text-sky-400 transition" href="#">Entertainment</a>
+        </li>
+        <li class="text-lg mr-6">
+          <a class="hover:text-sky-400 transition" href="#">Travel</a>
+        </li>
+        <li class="text-lg mr-6">
+          <a class="hover:text-sky-400 transition" href="#">Sports</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Menu on mobile -->>
     <div
       id="menuOnMobile"
       class="h-full w-full flex flex-col bg-gray-100 fixed hidden transition z-10"
@@ -103,7 +103,7 @@
       </div>
     </div>
 
-    <!-- intro -->
+    <!-- Intro -->
     <div
       class="bg-gray-50 container mx-auto pt-12 md:pt-0 md:h-screen md:flex md:flex-col md:justify-center lg:px-28 2xl:px-40"
     >
@@ -111,7 +111,7 @@
         class="md:grid md:grid-cols-2 md:grid-rows-2 md:gap-5 lg:grid-cols-3"
       >
         <div
-          class="w-full h-36 overflow-hidden flex items-center mt-2 relative rounded sm:h-44 sm:mt-12 md:mt-0 md:h-68 bg-[url('assets/images/1.webp')] bg-cover bg-center"
+          class="w-full h-36 lg:h-60 overflow-hidden flex items-center mt-2 relative rounded sm:h-44 sm:mt-12 md:mt-0 md:h-68 bg-[url('assets/images/1.webp')] bg-cover bg-center"
         >
           <div
             class="absolute text-white bottom-0 w-full bg-gray-900 opacity-75 p-2"
@@ -121,7 +121,7 @@
           </div>
         </div>
         <div
-          class="w-full h-36 overflow-hidden items-center mt-4 relative rounded sm:h-44 sm:mt-12 md:mt-0 md:h-68 lg:h-full lg:row-span-2 lg:justify-center hidden lg:flex bg-[url('assets/images/5.jpg')] bg-cover bg-center"
+          class="w-full h-36 lg:h-60 overflow-hidden items-center mt-4 relative rounded sm:h-44 sm:mt-12 md:mt-0 md:h-68 lg:h-full lg:row-span-2 lg:justify-center hidden lg:flex bg-[url('assets/images/5.jpg')] bg-cover bg-center"
         >
           <div
             class="absolute text-white bottom-0 w-full bg-gray-900 opacity-75 p-2"
@@ -131,7 +131,7 @@
           </div>
         </div>
         <div
-          class="w-full h-36 overflow-hidden flex items-center mt-4 relative rounded sm:h-44 sm:mt-12 md:mt-0 md:h-68 bg-[url('assets/images/2.webp')] bg-cover bg-center"
+          class="w-full h-36 lg:h-60 overflow-hidden flex items-center mt-4 relative rounded sm:h-44 sm:mt-12 md:mt-0 md:h-68 bg-[url('assets/images/2.webp')] bg-cover bg-center"
         >
           <div
             class="absolute text-white bottom-0 w-full bg-gray-900 opacity-75 p-2"
@@ -141,7 +141,7 @@
           </div>
         </div>
         <div
-          class="w-full h-36 overflow-hidden flex items-center mt-4 relative rounded sm:h-44 sm:mt-12 md:mt-0 md:h-68 bg-[url('assets/images/3.webp')] bg-cover bg-center"
+          class="w-full h-36 lg:h-60 overflow-hidden flex items-center mt-4 relative rounded sm:h-44 sm:mt-12 md:mt-0 md:h-68 bg-[url('assets/images/3.webp')] bg-cover bg-center"
         >
           <div
             class="absolute text-white bottom-0 w-full bg-gray-900 opacity-75 p-2"
@@ -150,9 +150,8 @@
             <span class="text-xs text-gray-400">2023 May 13</span>
           </div>
         </div>
-
         <div
-          class="w-full h-36 overflow-hidden items-center mt-4 relative rounded sm:h-44 sm:mt-12 md:mt-0 md:h-68 flex bg-[url('assets/images/4.webp')] bg-cover bg-center"
+          class="w-full h-36 lg:h-60 overflow-hidden items-center mt-4 relative rounded sm:h-44 sm:mt-12 md:mt-0 md:h-68 flex bg-[url('assets/images/4.webp')] bg-cover bg-center"
         >
           <div
             class="absolute text-white bottom-0 w-full bg-gray-900 opacity-75 p-2"
@@ -168,9 +167,9 @@
     <div class="container lg:px-28 mt-28 mx-auto pb-20">
       <h2 class="text-5xl ml-3">Recent</h2>
       <div class="w-100 xl:grid xl:grid-cols-3 xl:grid-rows-3 xl:gap-5">
-        <div class="w-100 mt-12 lg:shadow-xl lg:p-3 rounded-md">
+        <div class="w-100 mt-16 lg:shadow-xl lg:p-3 rounded-md">
           <div
-            class="w-100 h-60 flex items-center overflow-hidden rounded-md shadow-lg"
+            class="w-100 h-60 flex items-center overflow-hidden rounded-md shadow-lg lg:shadow-none"
           >
             <img class="w-100" src="assets/images/6.jpg" alt="1" />
           </div>
@@ -203,7 +202,7 @@
         </div>
         <div class="w-100 mt-16 lg:shadow-xl lg:p-3 rounded-md">
           <div
-            class="w-100 h-60 flex items-center overflow-hidden rounded-md shadow-lg"
+            class="w-100 h-60 flex items-center overflow-hidden rounded-md shadow-lg lg:shadow-none"
           >
             <img class="w-100" src="assets/images/1.webp" alt="1" />
           </div>
@@ -236,7 +235,7 @@
         </div>
         <div class="w-100 mt-16 lg:shadow-xl lg:p-3 rounded-md">
           <div
-            class="w-100 h-60 flex items-center overflow-hidden rounded-md shadow-lg"
+            class="w-100 h-60 flex items-center overflow-hidden rounded-md shadow-lg lg:shadow-none"
           >
             <img class="w-100" src="assets/images/2.webp" alt="1" />
           </div>
@@ -270,7 +269,7 @@
 
         <div class="w-100 mt-16 lg:shadow-xl lg:p-3 rounded-md">
           <div
-            class="w-100 h-60 flex items-center overflow-hidden rounded-md shadow-lg"
+            class="w-100 h-60 flex items-center overflow-hidden rounded-md shadow-lg lg:shadow-none"
           >
             <img class="w-100" src="assets/images/1.webp" alt="1" />
           </div>
@@ -303,7 +302,7 @@
         </div>
         <div class="w-100 mt-16 lg:shadow-xl lg:p-3 rounded-md">
           <div
-            class="w-100 h-60 flex items-center overflow-hidden rounded-md shadow-lg"
+            class="w-100 h-60 flex items-center overflow-hidden rounded-md shadow-lg lg:shadow-none"
           >
             <img class="w-100" src="assets/images/4.webp" alt="1" />
           </div>
@@ -336,7 +335,7 @@
         </div>
         <div class="w-100 mt-16 lg:shadow-xl lg:p-3 rounded-md">
           <div
-            class="w-100 h-60 flex items-center overflow-hidden rounded-md shadow-lg"
+            class="w-100 h-60 flex items-center overflow-hidden rounded-md shadow-lg lg:shadow-none"
           >
             <img class="w-100" src="assets/images/6.jpg" alt="1" />
           </div>
@@ -369,7 +368,7 @@
         </div>
         <div class="w-100 mt-16 lg:shadow-xl lg:p-3 rounded-md">
           <div
-            class="w-100 h-60 flex items-center overflow-hidden rounded-md shadow-lg"
+            class="w-100 h-60 flex items-center overflow-hidden rounded-md shadow-lg lg:shadow-none"
           >
             <img class="w-100" src="assets/images/1.webp" alt="1" />
           </div>
@@ -402,7 +401,7 @@
         </div>
         <div class="w-100 mt-16 lg:shadow-xl lg:p-3 rounded-md">
           <div
-            class="w-100 h-60 flex items-center overflow-hidden rounded-md shadow-lg"
+            class="w-100 h-60 flex items-center overflow-hidden rounded-md shadow-lg lg:shadow-none"
           >
             <img class="w-100" src="assets/images/4.webp" alt="1" />
           </div>
@@ -435,7 +434,7 @@
         </div>
         <div class="w-100 mt-16 lg:shadow-xl lg:p-3 rounded-md">
           <div
-            class="w-100 h-60 flex items-center overflow-hidden rounded-md shadow-lg"
+            class="w-100 h-60 flex items-center overflow-hidden rounded-md shadow-lg lg:shadow-none"
           >
             <img class="w-100" src="assets/images/6.jpg" alt="1" />
           </div>
@@ -502,8 +501,8 @@
       </div>
     </div>
 
-    <!-- favorite -->
-    <div class="container py-6 bg-gray-50 mx-auto h-screen xl:px-28">
+    <!-- Favorite -->
+    <div class="container py-6 bg-gray-50 mx-auto xl:h-screen xl:px-28">
       <h2 class="text-5xl ml-3 mb-6">favorite</h2>
       <div class="xl:grid xl:grid-cols-2 xl:grid-rows-1 xl:gap-3 h-5/6">
         <div
@@ -579,13 +578,32 @@
         </div>
       </div>
     </div>
+
+    <!-- Subscribe  -->
+    <div class="w-full flex justify-center py-24">
+      <div class="flex justify-center items-center flex-col px-2">
+        <h2 class="text-center text-2xl">Subscribe to our newsletter</h2>
+        <p class="text-center text-gray-400 text-lg mt-4 sm:w-80">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit nesciunt
+          error illum a explicabo, ipsam nostrum.
+        </p>
+        <form
+          action="#"
+          class="flex flex-col justify-center sm:flex-row mt-8 w-4/5 sm:w-96"
+        >
+          <input
+            type="text"
+            class="form-input text-center border-4 border-blue-500 px-2 py-1 focus:outline-none"
+            placeholder="Enter your email address"
+          />
+          <input
+            type="submit"
+            class="form-input relative -mt-1 sm:mt-0 sm:-ml-1 bg-blue-500 text-white border-4 border-blue-500 hover:bg-white hover:text-blue-500 cursor-pointer transition px-4 py-1.5"
+            value="Subscribe"
+          />
+        </form>
+      </div>
+    </div>
     <script src="assets/js/scripts.js"></script>
   </body>
 </html>
-
-<!-- linear-gradient(
-  to bottom,
-  transparent 0%,
-  transparent 18%,
-  rgba(0, 0, 0, 0.8) 99%,
-  rgba(0, 0, 0, 0.8) 100%) -->
