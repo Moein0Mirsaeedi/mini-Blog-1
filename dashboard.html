@@ -5,28 +5,60 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mini blog - Dashboard</title>
-    <script src="cdn.tailwindcss.com_3.3.2"></script>
     <link rel="stylesheet" href="assets/css/dashboard.css" />
+    <script src="cdn.tailwindcss.com_3.3.2"></script>
   </head>
-  <body class="overflow-x-hidden">
-      <div class="w-5screen h-screen bg-gray-400 flex absolute">
-        <div class="bg-blue-400 w-screen h-screen"></div>
-        <div class="bg-red-400 w-screen h-screen"></div>
-        <div class="bg-green-400 w-screen h-screen"></div>
-        <div class="bg-yellow-400 w-screen h-screen"></div>
-        <div class="bg-orange-500 w-screen h-screen"></div>
+  <body>
+    <div class="w-full h-screen overflow-hidden">
+      <section class="w-full h-screen-92">
+        <div
+          class="w-screen-500 h-screen-92 flex transition-all duration-700"
+          id="parentPages"
+        >
+          <div class="w-screen h-screen-92 bg-red-500 stting-section"></div>
+          <div class="w-screen h-screen-92 bg-green-500 profile-section"></div>
+          <div class="w-screen h-screen-92 bg-blue-500 home-section"></div>
+          <div
+            class="w-screen h-screen-92 bg-yellow-500 activity-section"
+          ></div>
+          <div class="w-screen h-screen-92 bg-orange-500 blog-section"></div>
+        </div>
+      </section>
+
+      <!-- menu section -->
+      <section
+        class="w-full h-screen-8 bg-gray-700 flex justify-around items-center"
+      >
+        <ion-icon
+          class="text-2xl text-white icons-menu p-3 transition-all duration-700"
+          id="setting"
+          name="settings-outline"
+        ></ion-icon>
+        <ion-icon
+          class="text-2xl text-white icons-menu p-3 transition-all duration-700"
+          id="profile"
+          name="person-outline"
+        ></ion-icon>
+        <ion-icon
+          class="text-2xl text-white icons-menu p-3 transition-all duration-700 active-icon"
+          id="home"
+          name="home-outline"
+        ></ion-icon>
+        <ion-icon
+          class="text-2xl text-white icons-menu p-3 transition-all duration-700"
+          id="activity"
+          name="analytics-outline"
+        ></ion-icon>
+        <ion-icon
+          class="text-2xl text-white icons-menu p-3 transition-all duration-700"
+          id="blog"
+          name="grid-outline"
+        ></ion-icon>
+      </section>
     </div>
 
-    <section class="w-full h-12 bottom-0 fixed bg-gray-700 flex justify-around items-center">
-      <ion-icon class="text-2xl text-white" name="settings-outline"></ion-icon>
-      <ion-icon class="text-2xl text-white" name="person-outline"></ion-icon>
-      <ion-icon class="text-2xl text-white" name="home-outline"></ion-icon>
-      <ion-icon class="text-2xl text-white" name="analytics-outline"></ion-icon>
-      <ion-icon class="text-2xl text-white" name="grid-outline"></ion-icon>
-    </section>
-
     <!-- Scripts -->
-    <script src="assets/js/scripts.js"></script>
+    <script src="assets/js/pages/dashboard.js"></script>
     <script src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
   </body>

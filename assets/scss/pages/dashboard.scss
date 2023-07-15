@@ -1,3 +1,42 @@
-.w-5screen {
+// .stting-section {
+//   transform: translateX(-200vw);
+// }
+
+// .profile-section {
+//   transform: translateX(-100vw);
+// }
+
+// .home-section {
+//   transform: translateX(0vw);
+// }
+
+// .avtivity-section {
+//   transform: translateX(100vw);
+// }
+
+// .blog-section {
+//   transform: translateX(200vw);
+// }
+
+.w-screen-500 {
   width: 500vw;
+}
+
+.h-screen-8 {
+  height: 8vh;
+}
+
+.h-screen-92 {
+  height: 92vh;
+}
+
+.active-icon {
+  background-color: rgb(55 65 81);
+  box-shadow: #fff 0px 6px 13px -5px;
+  border-radius: 100%;
+  // padding: 13px;
+  /* font-size: 30px; */
+  position: relative;
+  transform: translateY(-23px);
+  scale: 1.2;
 }
