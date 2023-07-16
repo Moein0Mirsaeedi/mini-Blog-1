@@ -1,6 +1,8 @@
 let menuIcons = document.querySelectorAll(".icons-menu");
+
 let parentPages = document.getElementById("parentPages");
 parentPages.style.transform = `translateX(-200vw)`;
+
 let locationPages = [
   { name: "setting", location: "0" },
   { name: "profile", location: "100" },
