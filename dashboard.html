@@ -4,298 +4,197 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mini blog - Dashboard</title>
+    <title id="titleSite">Dashboard | Home</title>
     <link rel="stylesheet" href="assets/css/dashboard.css" />
     <script src="cdn.tailwindcss.com_3.3.2"></script>
   </head>
   <body>
     <section class="w-full overflow-hidden">
-      <div
-        class="w-screen-500 flex transition-all duration-700 min-h-screen theme-bg overflow-hidden"
-        id="parentPages"
-      >
-        <div class="w-screen stting-section p-3"></div>
-        <div class="w-screen profile-section p-3"></div>
-
-        <div class="w-screen home-section p-3">
-          <div class="w-full bg-white py-8 rounded">
-            <div class="flex flex-col w-full justify-center items-center">
-              <img
-                src="assets/images/4.webp"
-                alt="5"
-                class="rounded-full w-24 h-24"
-              />
-              <h2 class="font-semibold text-lg mt-2">Moein Mirsaeedi</h2>
-              <span class="font-light text-sm -mt-1">@Moein13M</span>
-              <div class="mt-5">
-                <ion-icon
-                  name="call-outline"
-                  class="mx-3 text-lg theme-purple p-2 rounded-full"
-                ></ion-icon>
-                <ion-icon
-                  name="videocam-outline"
-                  class="mx-3 text-lg theme-purple p-2 rounded-full"
-                ></ion-icon>
-                <ion-icon
-                  name="ellipsis-vertical-outline"
-                  class="mx-3 text-lg theme-purple p-2 rounded-full"
-                ></ion-icon>
+      <div class="w-screen-500 flex transition-all duration-700 min-h-screen theme-bg overflow-hidden" id="parentPages">
+        <div class="w-screen sectionPages stting-section p-3" id="setting"></div>
+        <div class="w-screen sectionPages profile-section p-3" id="profile">
+          <div>
+            <div class="w-full bg-white py-8 rounded">
+              <div class="flex flex-col w-full justify-center items-center">
+                <img
+                  src="assets/images/4.webp"
+                  alt="5"
+                  class="rounded-full w-24 h-24"
+                />
+                <h2 class="font-semibold text-lg mt-2">Moein Mirsaeedi</h2>
+                <span class="font-light text-sm -mt-1">@Moein13M</span>
+                <div class="mt-5">
+                  <ion-icon
+                    name="call-outline"
+                    class="mx-3 text-lg theme-purple p-2 rounded-full"
+                  ></ion-icon>
+                  <ion-icon
+                    name="videocam-outline"
+                    class="mx-3 text-lg theme-purple p-2 rounded-full"
+                  ></ion-icon>
+                  <ion-icon
+                    name="ellipsis-vertical-outline"
+                    class="mx-3 text-lg theme-purple p-2 rounded-full"
+                  ></ion-icon>
+                </div>
               </div>
             </div>
+
+            <h2 class="w-full text-center text-white mt-4 user-profile">
+              User information
+            </h2>
+
+            <div
+              class="text-gray-200 mt-4 w-full p-2 rounded-md shadow-[0_1px_10px_0_rgba(255,255,255,0.1),0_1px_8px_-1px_rgba(255,255,255,0.1)]"
+            >
+              <div class="flex items-center gap-1">
+                <ion-icon
+                  name="person-circle-outline"
+                  class="text-2xl color-blue"
+                ></ion-icon>
+                <span
+                  >Full Name:
+                  <span class="color-blue">Moein Mirsaeedi</span></span
+                >
+              </div>
+
+              <div class="flex items-center gap-1 mt-3">
+                <ion-icon
+                  name="at-circle-outline"
+                  class="text-2xl color-blue"
+                ></ion-icon>
+                <span>UserName: <span class="color-blue">@Moein13M</span></span>
+              </div>
+
+              <div class="flex items-center gap-1 mt-3">
+                <ion-icon
+                  name="mail-outline"
+                  class="text-2xl color-blue"
+                ></ion-icon>
+                <span
+                  >Email:
+                  <span class="color-blue"
+                    >Moein.Mirsaeedi@Gmail.com</span
+                  ></span
+                >
+              </div>
+
+              <div class="flex items-center gap-1 mt-3">
+                <ion-icon
+                  name="finger-print-outline"
+                  class="text-2xl color-blue"
+                ></ion-icon>
+                <span
+                  >Password: <span class="color-blue">......</span>
+                  <a href="#" class="text-blue-500">Change password</a></span
+                >
+              </div>
+            </div>
+
+            <button class="w-full h-10 mt-5 theme-purple rounded-md">Change user information</button>
           </div>
-
-          <h2 class="w-full text-center text-white mt-4 activity-home">
-            Activity
-          </h2>
-
-          <div class="w-full">
-            <div class="w-full rounded border-purple p-2 relative mt-3">
-              <div class="flex gap-3">
+        </div>
+        <div class="w-screen sectionPages home-section p-3" id="home">
+          <div>
+            <div class="w-full bg-white py-8 rounded">
+              <div class="flex flex-col w-full justify-center items-center">
                 <img
                   src="assets/images/4.webp"
                   alt="5"
-                  class="rounded w-20 h-20"
+                  class="rounded-full w-24 h-24"
                 />
-                <p class="text-white text-sm">
-                  <span class="color-blue">Moein00G</span> published a new post
-                  about <span class="color-blue">"What is HTML and CSS?"</span>.
-                </p>
+                <h2 class="font-semibold text-lg mt-2 text-center">
+                  Moein Mirsaeedi
+                </h2>
+                <span class="font-light text-sm -mt-1">@Moein13M</span>
+                <div class="mt-5">
+                  <ion-icon
+                    name="call-outline"
+                    class="mx-3 text-lg theme-purple p-2 rounded-full"
+                  ></ion-icon>
+                  <ion-icon
+                    name="videocam-outline"
+                    class="mx-3 text-lg theme-purple p-2 rounded-full"
+                  ></ion-icon>
+                  <ion-icon
+                    name="ellipsis-vertical-outline"
+                    class="mx-3 text-lg theme-purple p-2 rounded-full"
+                  ></ion-icon>
+                </div>
               </div>
             </div>
 
-            <div class="w-full rounded border-purple p-2 relative mt-4">
-              <div class="flex gap-3">
-                <img
-                  src="assets/images/2.webp"
-                  alt="5"
-                  class="rounded w-20 h-20"
-                />
-                <p class="text-white text-sm">
-                  <span class="color-blue">TahaDo9</span> New comment for the
-                  post
-                  <span class="color-blue">"What is HTML and CSS?"</span>
-                  Wrote and like it
-                </p>
-              </div>
-            </div>
+            <h2 class="w-full text-center text-white mt-4 activity-home">
+              Activity
+            </h2>
 
-            <div class="w-full rounded border-purple p-2 relative mt-4">
-              <div class="flex gap-3">
-                <img
-                  src="assets/images/4.webp"
-                  alt="5"
-                  class="rounded w-20 h-20"
-                />
-                <p class="text-white text-sm">
-                  <span class="color-blue">Moein00G</span> published a new post
-                  about <span class="color-blue">"What is HTML and CSS?"</span>.
-                </p>
+            <div class="w-full">
+              <div class="w-full rounded border-purple p-2 relative mt-3">
+                <div class="flex gap-3">
+                  <img
+                    src="assets/images/4.webp"
+                    alt="5"
+                    class="rounded w-20 h-20"
+                  />
+                  <p class="text-white text-sm">
+                    <span class="color-blue">Moein00G</span> published a new
+                    post about
+                    <span class="color-blue">"What is HTML and CSS?"</span>.
+                  </p>
+                </div>
               </div>
-            </div>
 
-            <div class="w-full rounded border-purple p-2 relative mt-4">
-              <div class="flex gap-3">
-                <img
-                  src="assets/images/2.webp"
-                  alt="5"
-                  class="rounded w-20 h-20"
-                />
-                <p class="text-white text-sm">
-                  <span class="color-blue">TahaDo9</span> New comment for the
-                  post
-                  <span class="color-blue">"What is HTML and CSS?"</span>
-                  Wrote and like it
-                </p>
+              <div class="w-full rounded border-purple p-2 relative mt-4">
+                <div class="flex gap-3">
+                  <img
+                    src="assets/images/2.webp"
+                    alt="5"
+                    class="rounded w-20 h-20"
+                  />
+                  <p class="text-white text-sm">
+                    <span class="color-blue">TahaDo9</span> New comment for the
+                    post
+                    <span class="color-blue">"What is HTML and CSS?"</span>
+                    Wrote and like it
+                  </p>
+                </div>
+              </div>
+
+              <div class="w-full rounded border-purple p-2 relative mt-4">
+                <div class="flex gap-3">
+                  <img
+                    src="assets/images/4.webp"
+                    alt="5"
+                    class="rounded w-20 h-20"
+                  />
+                  <p class="text-white text-sm">
+                    <span class="color-blue">Moein00G</span> published a new
+                    post about
+                    <span class="color-blue">"What is HTML and CSS?"</span>.
+                  </p>
+                </div>
+              </div>
+
+              <div class="w-full rounded border-purple p-2 relative mt-4">
+                <div class="flex gap-3">
+                  <img
+                    src="assets/images/2.webp"
+                    alt="5"
+                    class="rounded w-20 h-20"
+                  />
+                  <p class="text-white text-sm">
+                    <span class="color-blue">TahaDo9</span> New comment for the
+                    post
+                    <span class="color-blue">"What is HTML and CSS?"</span>
+                    Wrote and like it
+                  </p>
+                </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="w-screen activity-section p-3">
-          <div class="w-full bg-white py-8 rounded">
-            <div class="flex flex-col w-full justify-center items-center">
-              <img
-                src="assets/images/4.webp"
-                alt="5"
-                class="rounded-full w-24 h-24"
-              />
-              <h2 class="font-semibold text-lg mt-2">Moein Mirsaeedi</h2>
-              <span class="font-light text-sm -mt-1">@Moein13M</span>
-              <div class="mt-5">
-                <ion-icon
-                  name="call-outline"
-                  class="mx-3 text-lg theme-purple p-2 rounded-full"
-                ></ion-icon>
-                <ion-icon
-                  name="videocam-outline"
-                  class="mx-3 text-lg theme-purple p-2 rounded-full"
-                ></ion-icon>
-                <ion-icon
-                  name="ellipsis-vertical-outline"
-                  class="mx-3 text-lg theme-purple p-2 rounded-full"
-                ></ion-icon>
-              </div>
-            </div>
-          </div>
-
-          <h2 class="w-full text-center text-white mt-4 activity-home">
-            Activity
-          </h2>
-
-          <div class="w-full">
-            <div class="w-full rounded border-purple p-2 relative mt-3">
-              <div class="flex gap-3">
-                <img
-                  src="assets/images/4.webp"
-                  alt="5"
-                  class="rounded w-20 h-20"
-                />
-                <p class="text-white text-sm">
-                  <span class="color-blue">Moein00G</span> published a new post
-                  about <span class="color-blue">"What is HTML and CSS?"</span>.
-                </p>
-              </div>
-            </div>
-
-            <div class="w-full rounded border-purple p-2 relative mt-4">
-              <div class="flex gap-3">
-                <img
-                  src="assets/images/2.webp"
-                  alt="5"
-                  class="rounded w-20 h-20"
-                />
-                <p class="text-white text-sm">
-                  <span class="color-blue">TahaDo9</span> New comment for the
-                  post
-                  <span class="color-blue">"What is HTML and CSS?"</span>
-                  Wrote and like it
-                </p>
-              </div>
-            </div>
-
-            <div class="w-full rounded border-purple p-2 relative mt-4">
-              <div class="flex gap-3">
-                <img
-                  src="assets/images/4.webp"
-                  alt="5"
-                  class="rounded w-20 h-20"
-                />
-                <p class="text-white text-sm">
-                  <span class="color-blue">Moein00G</span> published a new post
-                  about <span class="color-blue">"What is HTML and CSS?"</span>.
-                </p>
-              </div>
-            </div>
-
-            <div class="w-full rounded border-purple p-2 relative mt-4">
-              <div class="flex gap-3">
-                <img
-                  src="assets/images/2.webp"
-                  alt="5"
-                  class="rounded w-20 h-20"
-                />
-                <p class="text-white text-sm">
-                  <span class="color-blue">TahaDo9</span> New comment for the
-                  post
-                  <span class="color-blue">"What is HTML and CSS?"</span>
-                  Wrote and like it
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="w-full bg-white py-8 rounded">
-            <div class="flex flex-col w-full justify-center items-center">
-              <img
-                src="assets/images/4.webp"
-                alt="5"
-                class="rounded-full w-24 h-24"
-              />
-              <h2 class="font-semibold text-lg mt-2">Moein Mirsaeedi</h2>
-              <span class="font-light text-sm -mt-1">@Moein13M</span>
-              <div class="mt-5">
-                <ion-icon
-                  name="call-outline"
-                  class="mx-3 text-lg theme-purple p-2 rounded-full"
-                ></ion-icon>
-                <ion-icon
-                  name="videocam-outline"
-                  class="mx-3 text-lg theme-purple p-2 rounded-full"
-                ></ion-icon>
-                <ion-icon
-                  name="ellipsis-vertical-outline"
-                  class="mx-3 text-lg theme-purple p-2 rounded-full"
-                ></ion-icon>
-              </div>
-            </div>
-          </div>
-
-          <h2 class="w-full text-center text-white mt-4 activity-home">
-            Activity
-          </h2>
-
-          <div class="w-full">
-            <div class="w-full rounded border-purple p-2 relative mt-3">
-              <div class="flex gap-3">
-                <img
-                  src="assets/images/4.webp"
-                  alt="5"
-                  class="rounded w-20 h-20"
-                />
-                <p class="text-white text-sm">
-                  <span class="color-blue">Moein00G</span> published a new post
-                  about <span class="color-blue">"What is HTML and CSS?"</span>.
-                </p>
-              </div>
-            </div>
-
-            <div class="w-full rounded border-purple p-2 relative mt-4">
-              <div class="flex gap-3">
-                <img
-                  src="assets/images/2.webp"
-                  alt="5"
-                  class="rounded w-20 h-20"
-                />
-                <p class="text-white text-sm">
-                  <span class="color-blue">TahaDo9</span> New comment for the
-                  post
-                  <span class="color-blue">"What is HTML and CSS?"</span>
-                  Wrote and like it
-                </p>
-              </div>
-            </div>
-
-            <div class="w-full rounded border-purple p-2 relative mt-4">
-              <div class="flex gap-3">
-                <img
-                  src="assets/images/4.webp"
-                  alt="5"
-                  class="rounded w-20 h-20"
-                />
-                <p class="text-white text-sm">
-                  <span class="color-blue">Moein00G</span> published a new post
-                  about <span class="color-blue">"What is HTML and CSS?"</span>.
-                </p>
-              </div>
-            </div>
-
-            <div class="w-full rounded border-purple p-2 relative mt-4">
-              <div class="flex gap-3">
-                <img
-                  src="assets/images/2.webp"
-                  alt="5"
-                  class="rounded w-20 h-20"
-                />
-                <p class="text-white text-sm">
-                  <span class="color-blue">TahaDo9</span> New comment for the
-                  post
-                  <span class="color-blue">"What is HTML and CSS?"</span>
-                  Wrote and like it
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="w-screen blog-section p-3"></div>
+        <div class="w-screen sectionPages activity-section p-3" id="activity"></div>
+        <div class="w-screen sectionPages blog-section p-3" id="blog"></div>
       </div>
     </section>
 

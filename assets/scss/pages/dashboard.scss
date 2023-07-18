@@ -43,6 +43,10 @@
   background-color: #121212;
 }
 
+.theme-bg2 {
+  background-color: #1e1e1e;
+}
+
 .theme-purple {
   background-color: #bb86fc;
 }
@@ -92,4 +96,30 @@
 .text-2xs {
   font-size: 0.7rem;
   line-height: 0.9rem;
+}
+
+.user-profile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user-profile::before {
+  content: "";
+  width: 28%;
+  height: 2px;
+  background-color: #bb86fc;
+  position: relative;
+  border-radius: 100px;
+  margin-top: 2px;
+}
+
+.user-profile::after {
+  content: "";
+  width: 28%;
+  height: 2px;
+  background-color: #bb86fc;
+  position: relative;
+  border-radius: 100px;
+  margin-top: 2px;
 }
