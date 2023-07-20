@@ -2,7 +2,7 @@ let menuIcons = document.querySelectorAll(".icons-menu");
 let sectionPages = document.querySelectorAll(".sectionPages");
 
 let parentPages = document.getElementById("parentPages");
-parentPages.style.transform = `translateX(-00vw)`;
+parentPages.style.transform = `translateX(-200vw)`;
 parentPages.style.height = `870px`;
 
 let locationPages = [
