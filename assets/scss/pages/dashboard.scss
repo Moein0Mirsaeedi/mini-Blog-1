@@ -123,3 +123,49 @@
   border-radius: 100px;
   margin-top: 2px;
 }
+
+@media screen and (min-width:670px) {
+  .user-profile::before {
+  content: "";
+  width: 38%;
+  height: 2px;
+  background-color: #bb86fc;
+  position: relative;
+  border-radius: 100px;
+  margin-top: 2px;
+}
+
+.user-profile::after {
+  content: "";
+  width: 38%;
+  height: 2px;
+  background-color: #bb86fc;
+  position: relative;
+  border-radius: 100px;
+  margin-top: 2px;
+}
+
+}
+
+@media screen and (min-width:900px) {
+  .user-profile::before {
+  content: "";
+  width: 42%;
+  height: 2px;
+  background-color: #bb86fc;
+  position: relative;
+  border-radius: 100px;
+  margin-top: 2px;
+}
+
+.user-profile::after {
+  content: "";
+  width: 42%;
+  height: 2px;
+  background-color: #bb86fc;
+  position: relative;
+  border-radius: 100px;
+  margin-top: 2px;
+}
+
+}

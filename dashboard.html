@@ -22,7 +22,7 @@
 
             <div class="w-full mt-4">
               <div
-                class="w-11/12 mx-auto border-purple text-white flex gap-3 py-2 px-4 relative items-center rounded mt-3"
+                class="w-11/12 max-w-md mx-auto border-purple text-white flex gap-3 py-2 px-4 relative items-center rounded mt-3"
               >
                 <ion-icon class="text-2xl" name="people-outline"></ion-icon>
                 <h2 class="text-md">Account</h2>
@@ -33,7 +33,7 @@
               </div>
 
               <div
-                class="w-11/12 mx-auto border-purple text-white flex gap-3 py-2 px-4 relative items-center rounded mt-3"
+                class="w-11/12 max-w-md mx-auto border-purple text-white flex gap-3 py-2 px-4 relative items-center rounded mt-3"
               >
                 <ion-icon
                   class="text-2xl"
@@ -47,7 +47,7 @@
               </div>
 
               <div
-                class="w-11/12 mx-auto border-purple text-white flex gap-3 py-2 px-4 relative items-center rounded mt-3"
+                class="w-11/12 max-w-md mx-auto border-purple text-white flex gap-3 py-2 px-4 relative items-center rounded mt-3"
               >
                 <ion-icon
                   class="text-2xl"
@@ -61,7 +61,7 @@
               </div>
 
               <div
-                class="w-11/12 mx-auto border-purple text-white flex gap-3 py-2 px-4 relative items-center rounded mt-3"
+                class="w-11/12 max-w-md mx-auto border-purple text-white flex gap-3 py-2 px-4 relative items-center rounded mt-3"
               >
                 <ion-icon class="text-2xl" name="chatbubble-outline"></ion-icon>
                 <h2 class="text-md">Chat Settings</h2>
@@ -72,7 +72,7 @@
               </div>
 
               <div
-                class="w-11/12 mx-auto border-purple text-white flex gap-3 py-2 px-4 relative items-center rounded mt-3"
+                class="w-11/12 max-w-md mx-auto border-purple text-white flex gap-3 py-2 px-4 relative items-center rounded mt-3"
               >
                 <ion-icon
                   class="text-2xl"
@@ -86,7 +86,7 @@
               </div>
 
               <div
-                class="w-11/12 mx-auto border-purple text-white flex gap-3 py-2 px-4 relative items-center rounded mt-3"
+                class="w-11/12 max-w-md mx-auto border-purple text-white flex gap-3 py-2 px-4 relative items-center rounded mt-3"
               >
                 <ion-icon class="text-2xl" name="language-outline"></ion-icon>
                 <h2 class="text-md">Language</h2>
@@ -104,8 +104,8 @@
           </div>
         </div>
         <div class="w-screen sectionPages profile-section p-3" id="profile">
-          <div>
-            <div class="w-full bg-white py-8 rounded">
+          <div class="flex flex-col">
+            <div class="w-full bg-white py-8 rounded max-w-md mx-auto">
               <div class="flex flex-col w-full justify-center items-center">
                 <img
                   src="assets/images/4.webp"
@@ -136,7 +136,7 @@
             </h2>
 
             <div
-              class="text-gray-200 mt-4 w-full p-2 rounded-md shadow-[0_1px_10px_0_rgba(255,255,255,0.1),0_1px_8px_-1px_rgba(255,255,255,0.1)]"
+              class="text-gray-200 mt-4 w-full max-w-md mx-auto p-2 rounded-md shadow-[0_1px_10px_0_rgba(255,255,255,0.1),0_1px_8px_-1px_rgba(255,255,255,0.1)]"
             >
               <div class="flex items-center gap-1">
                 <ion-icon
@@ -182,14 +182,16 @@
               </div>
             </div>
 
-            <button class="w-full h-10 mt-5 theme-purple rounded-md">
+            <button
+              class="w-full max-w-md h-10 mt-5 theme-purple rounded-md mx-auto"
+            >
               Change user information
             </button>
           </div>
         </div>
         <div class="w-screen sectionPages home-section p-3 px-5" id="home">
-          <div>
-            <div class="w-full bg-white py-8 rounded">
+          <div class="flex flex-col">
+            <div class="w-full bg-white py-8 rounded max-w-md mx-auto">
               <div class="flex flex-col w-full justify-center items-center">
                 <img
                   src="assets/images/4.webp"
@@ -221,7 +223,7 @@
               Activity
             </h2>
 
-            <div class="w-full">
+            <div class="w-full max-w-md mx-auto">
               <div class="w-full rounded border-purple p-2 relative mt-3">
                 <div class="flex gap-3">
                   <img
@@ -291,9 +293,11 @@
         </div>
         <div class="w-screen sectionPages blog-section p-3" id="blog">
           <div class="flex justify-center">
-            <button class="w-96 h-10 theme-purple rounded-md">
-              <a href="index.html">Go to Mini Blog</a>
-            </button>
+            <a href="index.html" class="w-11/12 md:w-96">
+              <button class="w-full h-10 theme-purple rounded-md">
+                Go to Mini Blog
+              </button>
+            </a>
           </div>
         </div>
       </div>
