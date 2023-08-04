@@ -171,3 +171,20 @@
 }
 
 }
+
+.progress-bar-time {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background: 
+    radial-gradient(closest-side, white 79%, transparent 80% 100%),
+    conic-gradient(hotpink 75%, pink 0);    
+}
+
+.progress-bar-time::before {
+  content: "75%";
+}

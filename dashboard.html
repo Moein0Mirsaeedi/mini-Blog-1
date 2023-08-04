@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title id="titleSite">Dashboard | Home</title>
     <link rel="stylesheet" href="assets/css/dashboard.css" />
-    <script src="cdn.tailwindcss.com_3.3.2"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
   </head>
   <body>
     <section class="w-full overflow-hidden">
@@ -95,6 +96,17 @@
                   name="chevron-forward-outline"
                 ></ion-icon>
               </div>
+
+              <div
+                class="w-11/12 max-w-md mx-auto border-purple text-white flex gap-3 py-2 px-4 relative items-center rounded mt-3"
+              >
+                <ion-icon class="text-2xl" name="log-out-outline"></ion-icon>
+                <h2 class="text-md">Log out</h2>
+                <ion-icon
+                  class="text-3xl color-blue right-3 absolute"
+                  name="chevron-forward-outline"
+                ></ion-icon>
+              </div>
             </div>
 
             <div class="w-full mt-3 text-gray-500 text-center">
@@ -103,6 +115,9 @@
             </div>
           </div>
         </div>
+
+        <!-- -------------------------------------------------------------------------------------- -->
+
         <div class="w-screen sectionPages profile-section p-3" id="profile">
           <div class="flex flex-col">
             <div class="w-full bg-white py-8 rounded max-w-md mx-auto">
@@ -127,6 +142,74 @@
                     name="ellipsis-vertical-outline"
                     class="mx-3 text-lg theme-purple p-2 rounded-full"
                   ></ion-icon>
+                </div>
+              </div>
+            </div>
+
+            <h2 class="w-full text-center text-white mt-4 activity-home">
+              Posts
+            </h2>
+
+            <div class="w-full max-w-md mx-auto">
+              <div class="w-full rounded border-purple p-2 relative mt-3">
+                <div class="flex gap-3">
+                  <img
+                    src="assets/images/4.webp"
+                    alt="5"
+                    class="rounded w-20 h-20"
+                  />
+                  <p class="text-white text-sm">
+                    <span class="color-blue">Moein00G</span> published a new
+                    post about
+                    <span class="color-blue">"What is HTML and CSS?"</span>.
+                  </p>
+                </div>
+              </div>
+
+              <div class="w-full rounded border-purple p-2 relative mt-4">
+                <div class="flex gap-3">
+                  <img
+                    src="assets/images/2.webp"
+                    alt="5"
+                    class="rounded w-20 h-20"
+                  />
+                  <p class="text-white text-sm">
+                    <span class="color-blue">TahaDo9</span> New comment for the
+                    post
+                    <span class="color-blue">"What is HTML and CSS?"</span>
+                    Wrote and like it
+                  </p>
+                </div>
+              </div>
+
+              <div class="w-full rounded border-purple p-2 relative mt-4">
+                <div class="flex gap-3">
+                  <img
+                    src="assets/images/4.webp"
+                    alt="5"
+                    class="rounded w-20 h-20"
+                  />
+                  <p class="text-white text-sm">
+                    <span class="color-blue">Moein00G</span> published a new
+                    post about
+                    <span class="color-blue">"What is HTML and CSS?"</span>.
+                  </p>
+                </div>
+              </div>
+
+              <div class="w-full rounded border-purple p-2 relative mt-4">
+                <div class="flex gap-3">
+                  <img
+                    src="assets/images/2.webp"
+                    alt="5"
+                    class="rounded w-20 h-20"
+                  />
+                  <p class="text-white text-sm">
+                    <span class="color-blue">TahaDo9</span> New comment for the
+                    post
+                    <span class="color-blue">"What is HTML and CSS?"</span>
+                    Wrote and like it
+                  </p>
                 </div>
               </div>
             </div>
@@ -189,6 +272,9 @@
             </button>
           </div>
         </div>
+
+        <!-- -------------------------------------------------------------------------------------- -->
+
         <div class="w-screen sectionPages home-section p-3 px-5" id="home">
           <div class="flex flex-col">
             <div class="w-full bg-white py-8 rounded max-w-md mx-auto">
@@ -288,9 +374,23 @@
             </div>
           </div>
         </div>
+
+        <!-- -------------------------------------------------------------------------------------- -->
+
         <div class="w-screen sectionPages activity-section p-3" id="activity">
-          <div></div>
+          <div>
+            <h2 class="w-full text-center text-white activity-home">
+              Activity
+            </h2>
+            <div class="flex justify-around items-center mt-5">
+             <div></div>
+            </div>
+            <!-- <canvas id="myChart" style="width: 100%; max-width: 700px"></canvas> -->
+          </div>
         </div>
+
+        <!-- -------------------------------------------------------------------------------------- -->
+
         <div class="w-screen sectionPages blog-section p-3" id="blog">
           <div class="flex justify-center">
             <a href="index.html" class="w-11/12 md:w-96">
@@ -336,7 +436,11 @@
 
     <!-- Scripts -->
     <script src="assets/js/pages/dashboard.js"></script>
-    <script src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
     <script src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.bundle.min.js"></script>
   </body>
 </html>
